@@ -13,12 +13,13 @@
     },
     .dependencies = .{
         .zpool = .{
-            .url = "git+https://github.com/dstrachan/zpool#9e103e59e8c55e047cb10fdc6ead2a85f39af9ec",
-            .hash = "zpool-0.11.0-dev-bG692dpFAQDXtmXhdsGSY-79DYSy9EysXYDVszLWOJvd",
+            .url = "git+https://github.com/dstrachan/zpool#b51e1c025d1bb3dd6353aa14bcef0b919251ebb8",
+            .hash = "zpool-0.11.0-dev-bG692flFAQAlmdIGsGlo6CKoTG_0TwGqcTSNEAYsGHyt",
         },
         .system_sdk = .{
-            .url = "https://github.com/zig-gamedev/system_sdk/archive/c0dbf11cdc17da5904ea8a17eadc54dee26567ec.tar.gz",
-            .hash = "system_sdk-0.3.0-dev-alwUNnYaaAJAtIdE2fg4NQfDqEKs7QCXy_qYukAOBfmF",
+            .url = "git+https://github.com/zig-gamedev/system_sdk#777e76828f05d5d223df47a4c0de95ae4efde884",
+            .hash = "system_sdk-0.3.0-dev-alwUNqAaaALJ5VoZImZo3n6prezBnQnrpziun3ZeZwcp",
+            .lazy = true,
         },
         .dawn_x86_64_windows_gnu = .{
             .url = "https://github.com/michal-z/webgpu_dawn-x86_64-windows-gnu/archive/d3a68014e6b6b53fd330a0ccba99e4dcfffddae5.tar.gz",
